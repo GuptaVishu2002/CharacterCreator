@@ -1,0 +1,1 @@
+<?import javafx.scene.control.*?><?import java.lang.*?><?import javafx.scene.layout.*?><FlowPane prefHeight="400.0" prefWidth="600.0"><children><Label text="AAA"/><Label text="AAA"/><Label text="AAA"/><Label text="AAA"/><Label text="AAA"/><Label text="AAA"/><Label text="AAA"/><Label text="AAA"/><Label text="AAA"/><Label text="AAA"/></children></FlowPane>

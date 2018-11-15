@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox fx:controller="Scene6Controller" xmlns:fx="http://javafx.com/fxml">
+  <padding>
+    <Insets top="10" right="10" bottom="10" left="10"/>
+  </padding>
+  
+  <children>
+    <HBox prefHeight="50">
+      <children>
+	<Button text="Party"  prefWidth="100" onAction="#partyButtonAction"/>
+	<Button text="Inn"    prefWidth="100" onAction="#innButtonAction"/>
+	<Button text="Battle" prefWidth="100" onAction="#battleButtonAction"/>
+	<Button text="Bar" prefWidth="100" onAction="#BarButtonAction"/>
+      </children>
+    </HBox>
+    <GridPane>
+      <Label fx:id="logLabel0" prefHeight="150" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+      <Label fx:id="logLabel1" prefHeight="150" GridPane.rowIndex="0" GridPane.columnIndex="1" />
+      <Label fx:id="logLabel2" prefHeight="150" GridPane.rowIndex="0" GridPane.columnIndex="2" />
+      <Label fx:id="logLabel3" prefHeight="150" GridPane.rowIndex="1" GridPane.columnIndex="0" />
+      <Label fx:id="logLabel4" prefHeight="150" GridPane.rowIndex="1" GridPane.columnIndex="1" />
+      <Label fx:id="logLabel5" prefHeight="150" GridPane.rowIndex="1" GridPane.columnIndex="2" />
+    </GridPane>
+
+  </children>
+</VBox>

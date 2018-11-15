@@ -1,0 +1,1 @@
+<?import javafx.scene.control.*?><?import java.lang.*?><?import javafx.scene.layout.*?><VBox prefHeight="400.0" prefWidth="600.0"><children><HBox><children><Label text="name:"/><TextField text="" promptText="input name"/></children></HBox><HBox><children><Label text="pass:"/><TextField text="" promptText="input pass"/></children></HBox></children></VBox>
